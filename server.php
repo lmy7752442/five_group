@@ -6,7 +6,11 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
+<<<<<<< HEAD
 
+=======
+echo '123456';
+>>>>>>> 6dcf02396e51e8c300b919e67b8aaba0df84ea9a
 $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
